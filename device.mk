@@ -57,3 +57,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/borneo/borneo-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
